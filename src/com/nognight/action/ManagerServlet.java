@@ -35,6 +35,7 @@ public class ManagerServlet extends HttpServlet {
 	 */
 	protected void doPost(HttpServletRequest request,
 			HttpServletResponse response) throws ServletException, IOException {
+				//管理员命令
 		String CMD = null;
 		if (CMD == null) {
 			CMD = "NULL";
